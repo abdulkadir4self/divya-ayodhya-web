@@ -1,0 +1,26 @@
+.hotelBookingSection{
+    background-color: #faebcb73 !important;
+    padding: 2rem 5rem !important;
+    border-radius: 25px;
+    margin-bottom: 2rem;
+    font-family: "Poppins", system-ui;
+}
+.hotelBookingSection button{
+    background-color: #401408;
+    color: white;
+}
+
+/* Mobile Phones (Portrait) */
+@media only screen and (max-width: 480px) {
+    .hotelBookingSection{
+        padding: 1rem !important;
+    }
+  }
+  
+  /* Mobile Phones (Landscape) */
+  @media only screen and (min-width: 481px) and (max-width: 767px) {
+    .hotelBookingSection{
+        padding: 2rem !important;
+    }
+  }
+  
